@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.topo{
+    background-color: #E3E7AF;
+    text-align: center;
+    font-family: "Rouge Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    padding: 10px;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.cameraesquerda{
+    transform: rotate(21deg);
+    width: 128px;
+    height: 119px;
+    opacity: 70%;
+    float: left;
+}
+.cameradireita{
+    transform: rotate(-21deg);
+    width: 128px;
+    height: 119px;
+    opacity: 70%;
+    float: right;
+}
+.camera1{
+    transform: rotate(21deg);
+    width: 128px;
+    height: 119px;
+    opacity: 70%;
+    float: left;
+}
+.camera2{
+    transform: rotate(-21deg);
+    width: 128px;
+    height: 119px;
+    opacity: 70%;
+    float: right;
+}
+.camera3{
+    transform: rotate(21deg);
+    width: 128px;
+    height: 119px;
+    opacity: 70%;
+    float: left;
+}
+.camera4{
+    transform: rotate(-21deg);
+    width: 128px;
+    height: 119px;
+    opacity: 70%;
+    float: right;
+}
+.hr{
+    height: 20px;
+    gap: 10px;
+    padding: 20px;
+    margin: 50px;
+}
+.imagemtopo{
+    width: 100vw;
+    height: 413px;
+    gap: 20px;
+}
+.biografia{
+    text-align: center;
+    padding: 50px;
+    margin: 70px;
+}
+.imgdaniel{
+    float: center;
+    width: 495px;
+    height: 358px;
+    gap: 20px;
+    border-radius: 20%;
+}
+.biografia h1{
+    font-size: 32px;
+    font-family: "Princess Sofia", cursive;
+    font-weight: 400;
+    font-style: normal
+}
+.biografia h2{
+    font-family: "Pridi", serif;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: normal;
+}
+.biografia h3{
+    padding: 10px;
+    margin: 70px;
+    font-family: "JetBrains Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 32px;
+    font-style: normal;
+}
+.img{
+    display: inline-block;
+    justify-content: space-between;
+}
+.img1{
+    height: 72px;
+    width: 100px;
+}
+.img2{
+    height: 72px;
+    width: 100px;
+}
+.img3{
+    height: 72px;
+    width: 100px;
+}
+.img4{
+    height: 72px;
+    width: 100px;
+}
+.img5{
+    height: 72px;
+    width: 100px;
+}
+.textotrabalho{
+    margin: 10px;
+    padding: 10px;
+    font-family: "Pridi", serif;
+    font-weight: 200;
+    font-size: 15px;
+}
+.fotobag{
+    position: relative;
+    background-image: url(imagens/baguette.png);
+    width: 100vw;  
+    height: 320px;
+    background-position: center;
+    background-size: cover;
+}
+.fotobag h1{
+    font-family: "Pridi", serif;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    text-align: center;    
+    background-color: black;
+    border-radius: 10%;
+}
+.algu{
+    font-weight: bold;
+    font-family: "Pridi", serif;
+    text-align: center;
+    margin: 10px;
+    padding: 1px;
+}
+.algu h1{
+    font-size: 32px;
+}
+.algu h2{
+    font-size: 20px;
+}
+.historias{
+   display: flex;   
+   justify-content: space-evenly;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   flex-wrap:wrap;
+}
+.historias .coluna{
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 10%;
+}
+.historias .coluna:nth-child(1){
+    background-color: #035E7B;
+}
+.historias .coluna:nth-child(2){
+    background-color: #D7263D;
+}
+.historias .coluna:nth-child(3){
+    background-color: #3D1308;
+}
+.historias img{
+    width: 192px;
+    height: 191px;
+    margin: 10px;
+}
+.historias h3{
+    color:black;
+    font-size: 32px;
+    font-family: "Pridi", serif;
+}
+.historias .ANA{
+    color: #D6C9C9;
+}
+.historias p{
+    font-size: 20px;
+    font-family: "Pridi", serif;
+    color: #EFF1C5;
+    margin: 10px;
+}
+.historias .s{
+    color: #A2A77F;
+
+}
+.fotocar{
+    position: relative;
+    background-image: url(imagens/carro.png);
+    width: 100vw;
+    height: 320px;
+    background-position: center;
+    background-size: cover;
+}
+.fotocar h1{
+    font-family: "Pridi", serif;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    text-align: center;    
+    background-color: black;
+    border-radius: 10%;
+}
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    gap: 20px;
+    justify-content: center;
+    margin: 40px;
+}
+.galeria img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.footer{
+    background-color: #E3E7AF;
+    text-align: center;
+    font-family: "Pridi", serif;
+    font-style: normal;
+    padding: 10px;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.footer h1{
+    font-size: 32px;
+}
+.footer h3{
+    font-size: 15px;
+}
+.footer h2{
+    font-size: 20px;
+}
+.footer h4{
+    font-size: 12px;
+}
+.footer img{
+    width: 100px;
+    height: 100PX;
+}
